@@ -8,7 +8,6 @@ const Header = props => {
     </View>
   );
 };
-
 const styles = StyleSheet.create({
   header: {
     width: '100%',
@@ -18,6 +17,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center'
   },
+  
   headerTitle: {
     color: 'black',
     fontSize: 18

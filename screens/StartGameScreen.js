@@ -4,8 +4,7 @@ import {View, Text, StyleSheet, TextInput, Button} from 'react-native';
 const StartGameScreen = props => {
     return(
         <View style={Styles.screen}>
-            
-            <View style={Styles.inputContainer}>
+           <View style={Styles.inputContainer}>
                 <Text style={Styles.title}>Star a New Game!</Text>
                 <TextInput/>
                 <View style={Styles.buttonContainer}>
