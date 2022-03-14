@@ -10,7 +10,6 @@ const Header = props => {
     </View>
   );
 };
-
 const styles = StyleSheet.create({
   header: {
     width: '100%',
